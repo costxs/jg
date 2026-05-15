@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { Trophy, Send, RefreshCw } from 'lucide-react';
+import { Send, RefreshCw } from 'lucide-react';
 
 interface Question {
   id: number;
